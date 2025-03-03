@@ -1,9 +1,8 @@
 lightbox.option({
-    'resizeDuration': 200,
-    'wrapAround': true,
-    'disableScrolling': true,
-    'fitImagesInViewport': false  // Ensures images keep fixed size
-  });
+  'resizeDuration': 200,
+  'wrapAround': true,
+  'alwaysShowNavOnTouchDevices': true
+})
 
 
 

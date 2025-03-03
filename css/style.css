@@ -13,17 +13,18 @@
 #mixItUp{
     padding: 100px 0;
     background: rgba(243, 13, 5, 0.603);
+    height: 1100px;
 }
-.img_thumbnail {
-    width: 100% !important;
-    height: 100% !important;
+.lb-close, .lb-prev, .lb-next {
+    opacity: 1 !important; /* Always show the buttons */
+}
+.lb-prev {
+    left: 10px; /* Adjust position */
+}
+.lb-next {
+    right: 10px;
 }
 
-.lb-image {
-    width: 200px !important;
-    height: 300px !important;
-    object-fit: cover;
-}
 .vbox-close {
     cursor: pointer;
     position: fixed;
