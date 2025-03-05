@@ -1,8 +1,8 @@
 lightbox.option({
-  'resizeDuration': 200,
-  'wrapAround': true,
-  'alwaysShowNavOnTouchDevices': true
-})
+    resizeDuration: 200,
+    wrapAround: true, // Enables Prev/Next looping
+    alwaysShowNavOnTouchDevices: true,
+  });
 
 
 
