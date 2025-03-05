@@ -63,3 +63,16 @@ function typeEffect() {
 
 // Start the typing effect
 typeEffect();
+
+
+
+$('.sliders').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: true,
+    dots: true,
+    prevArrow: '<i class="fa-solid fa-circle-arrow-left leftArrow"></i>',
+    nextArrow: '<i class="fa-solid fa-circle-arrow-right rightArrow"></i>',
+  })

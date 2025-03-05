@@ -6,22 +6,26 @@
     <title>Class #21</title>
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css"
-    />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
     <link rel="stylesheet" href="css/venobox.min.css" />
-    <link href="https://cdn.jsdelivr.net/npm/mixitup@3.3.1/dist/mixitup.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/mixitup@3.3.1/dist/mixitup.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <section id="main">
       <div class="container">
-
         <h2 class="fs-1 text-center">I am a <span id="typing-text"></span></h2>
         <div class="row mt-5">
           <div class="col-lg-4">
-            <a href="images/3.png" data-lightbox="roadtrip" data-title="Image 1">
+            <a
+              href="images/3.png"
+              data-lightbox="roadtrip"
+              data-title="Image 1"
+            >
               <picture>
                 <img
                   src="images/3.png"
@@ -32,7 +36,11 @@
             </a>
           </div>
           <div class="col-lg-4">
-            <a href="images/1.jpg" data-lightbox="roadtrip" data-title="Image 2">
+            <a
+              href="images/1.jpg"
+              data-lightbox="roadtrip"
+              data-title="Image 2"
+            >
               <picture>
                 <img
                   src="images/1.jpg"
@@ -43,7 +51,11 @@
             </a>
           </div>
           <div class="col-lg-4">
-            <a href="images/2.jpg" data-lightbox="roadtrip" data-title="Image 3">
+            <a
+              href="images/2.jpg"
+              data-lightbox="roadtrip"
+              data-title="Image 3"
+            >
               <picture>
                 <img
                   src="images/2.jpg"
@@ -115,96 +127,146 @@
     <section id="mixItUp">
       <div class="container">
         <div class="controls text-center">
-          <button data-filter="all" class="filter btn btn-success text-uppercase fs-4">All</button>
-          <button data-filter=".buildings" class="filter btn btn-success text-uppercase fs-4">Buildings</button>
-          <button data-filter=".interiorDesign" class="filter btn btn-success text-uppercase fs-4">
+          <button
+            data-filter="all"
+            class="filter btn btn-success text-uppercase fs-4"
+          >
+            All
+          </button>
+          <button
+            data-filter=".buildings"
+            class="filter btn btn-success text-uppercase fs-4"
+          >
+            Buildings
+          </button>
+          <button
+            data-filter=".interiorDesign"
+            class="filter btn btn-success text-uppercase fs-4"
+          >
             Interior Design
           </button>
-          <button data-filter=".isolation" class="filter btn btn-success text-uppercase fs-4">Isolation</button>
-          <button data-filter=".kiki" class="filter btn btn-success text-uppercase fs-4">Kiki</button>
-          <button data-filter=".plumbing" class="filter btn btn-success text-uppercase fs-4">Plumbing</button>
-          <button data-filter=".tiling" class="filter btn btn-success text-uppercase fs-4">Tiling</button>
+          <button
+            data-filter=".isolation"
+            class="filter btn btn-success text-uppercase fs-4"
+          >
+            Isolation
+          </button>
+          <button
+            data-filter=".kiki"
+            class="filter btn btn-success text-uppercase fs-4"
+          >
+            Kiki
+          </button>
+          <button
+            data-filter=".plumbing"
+            class="filter btn btn-success text-uppercase fs-4"
+          >
+            Plumbing
+          </button>
+          <button
+            data-filter=".tiling"
+            class="filter btn btn-success text-uppercase fs-4"
+          >
+            Tiling
+          </button>
         </div>
 
         <div class="gallery" id="gallery">
-            <div class="gallery-item buildings isolation">
-            
-                <picture>
-                    <img src="images/4.jpg" alt="4.jpg">
-                </picture>
-            </div>
-            <div class="gallery-item buildings isolation">
-                <picture>
-                    <img src="images/5.jpg" alt="5.jpg">
-                </picture>
-            </div>
-            <div class="gallery-item buildings tiling">
-            
-                <picture>
-                    <img src="images/6.jpg" alt="6.jpg">
-                </picture>
-            </div>
-            <div class="gallery-item buildings isolation">
-                <picture>
-                    <img src="images/7.jpg" alt="7.jpg">
-                </picture>
-            </div>
-            <div class="gallery-item buildings isolation kiki plumbing">
-                <picture>
-                    <img src="images/8.jpg" alt="8.jpg">
-                </picture>
+          <div class="gallery-item buildings isolation">
+            <picture>
+              <img src="images/4.jpg" alt="4.jpg" />
+            </picture>
+          </div>
+          <div class="gallery-item buildings isolation">
+            <picture>
+              <img src="images/5.jpg" alt="5.jpg" />
+            </picture>
+          </div>
+          <div class="gallery-item buildings tiling">
+            <picture>
+              <img src="images/6.jpg" alt="6.jpg" />
+            </picture>
+          </div>
+          <div class="gallery-item buildings isolation">
+            <picture>
+              <img src="images/7.jpg" alt="7.jpg" />
+            </picture>
+          </div>
+          <div class="gallery-item buildings isolation kiki plumbing">
+            <picture>
+              <img src="images/8.jpg" alt="8.jpg" />
+            </picture>
+          </div>
+          <div class="gallery-item interiorDesign tiling">
+            <picture>
+              <img src="images/9.jpg" alt="9.jpg" />
+            </picture>
+          </div>
+          <div class="gallery-item buildings isolation plumbing">
+            <picture>
+              <img src="images/10.jpg" alt="10.jpg" />
+            </picture>
+          </div>
+          <div class="gallery-item isolation tiling interiorDesign">
+            <picture>
+              <img src="images/11.jpg" alt="11.jpg" />
+            </picture>
+          </div>
+          <div class="gallery-item interiorDesign plumbing">
+            <picture>
+              <img src="images/12.jpg" alt="12.jpg" />
+            </picture>
+          </div>
+          <div class="gallery-item kiki plumbing tiling">
+            <picture>
+              <img src="images/13.jpg" alt="13.jpg" />
+            </picture>
+          </div>
+          <div class="gallery-item kiki tiling">
+            <picture>
+              <img src="images/14.jpg" alt="14.jpg" />
+            </picture>
+          </div>
+          <div class="gallery-item kiki tiling">
+            <picture>
+              <img src="images/10.jpg" alt="10.jpg" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            </div>
-            <div class="gallery-item interiorDesign tiling">
-                <picture>
-                    <img src="images/9.jpg" alt="9.jpg">
-                </picture>
+    <section id="slickSlider">
+      <div class="container">
+        <div class="sliders">
+          <div class="slider"></div>
+          <div class="slider one"></div>
+          <div class="slider two"></div>
+        </div>
+      </div>
+    </section>
 
-            </div>
-            <div class="gallery-item buildings isolation plumbing">
-                <picture>
-                    <img src="images/10.jpg" alt="10.jpg">
-                </picture>
-
-            </div>
-            <div class="gallery-item isolation tiling interiorDesign">
-                <picture>
-                    <img src="images/11.jpg" alt="11.jpg">
-                </picture>
-
-            </div>
-            <div class="gallery-item interiorDesign plumbing">
-                <picture>
-                    <img src="images/12.jpg" alt="12.jpg">
-                </picture>
-
-            </div>
-            <div class="gallery-item kiki plumbing tiling">
-                <picture>
-                    <img src="images/13.jpg" alt="13.jpg">
-                </picture>
-
-            </div>
-            <div class="gallery-item kiki tiling">
-                <picture>
-                    <img src="images/14.jpg" alt="14.jpg">
-                </picture>
-
-            </div>
-            <div class="gallery-item kiki tiling">
-                <picture>
-                    <img src="images/10.jpg" alt="10.jpg">
-                </picture>
-
-            </div>
+    <section id="slickSlider_two">
+      <div class="container">
+        <div class="sliders">
+          <div class="slideImg">
+            <div class="overlay"></div>
+          </div>
+          <div class="slideImg img-two">
+            <div class="overlay"></div>
+          </div>
+          <div class="slideImg img-three">
+            <div class="overlay"></div>
+          </div>
         </div>
       </div>
     </section>
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
     <script src="js/venobox.min.js"></script>
     <script src="js/mixitup.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

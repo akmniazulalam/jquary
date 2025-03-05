@@ -72,3 +72,76 @@
 @keyframes blink {
     50% { opacity: 0; }
 }
+#slickSlider{
+    padding: 100px 0;
+    background: rgb(173, 173, 173);
+}
+.slider{
+    padding: 300px 0;
+    background: tomato;
+}
+.one{
+    background: teal;
+}
+.two{
+    background: blue;
+}
+.leftArrow{
+    font-size: 30px;
+    color: #000;
+    z-index: 99;
+    position: absolute;
+    top: 44%;
+    left: 20px;
+    cursor: pointer;
+}
+.rightArrow{
+    font-size: 30px;
+    color: #000;
+    position: absolute;
+    top: 44%;
+    right: 20px;
+    cursor: pointer;
+}
+#slickSlider_two{
+    background: #cec0c0;
+    padding: 100px 0;
+}
+.slideImg{
+    background: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-two{
+    background: url(../images/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-three{
+    background: url(../images/3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.overlay{
+    padding: 300px 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.slick-dots{
+    text-align: center;
+    margin-top: 30px;
+}
+.slick-dots li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.slick-dots li button {
+    font-size: 0;
+    border: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: black;
+}
